@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>シンプルブラウザプロトタイプ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button id="back-btn" disabled>戻る</button>
+    <button id="forward-btn" disabled>進む</button>
+    <input type="text" id="url-input" placeholder="URLを入力してください">
+    <button id="load-btn">読み込み</button>
+  </header>  
+  <main>
+    <div id="content-area">
+      <!-- ここに取得したページのコンテンツが表示されます -->
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
